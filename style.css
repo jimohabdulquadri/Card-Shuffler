@@ -3,11 +3,20 @@
 }
 
 body {
-    background-color: wheat;
+    background-color: white;
     transform-style: preserve-3d;
     perspective: 2000px;
     display: flex;
     justify-content: center;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.toggle_btn {
+    background-color: blanchedalmond;
 }
 
 label .cardWrapper {

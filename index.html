@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <div class="container">
+        <button onclick="myFunction()" class="toggle_btn">Toggle dark mode</button>
+    </div>
     <input type="checkbox" id="card_01" checked>
 
     <label for="card_01">
@@ -20,10 +23,18 @@
     <input type="checkbox" id="card_02" checked>
 
     <label for="card_02">
-            <div class="cardWrapper">
-                <div class="cardRandom"></div>
-            </div>
-        </label>
+        <div class="cardWrapper">
+              <div class="cardRandom"></div>
+        </div>
+    </label>
+
+    <script>
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+
 </body>
 
 </html>
